@@ -24,7 +24,7 @@ body {
 .container {
   margin-inline: auto;
   width: 50rem;
-  height: 70rem;
+
   background-color: #fae951;
   padding: 5rem;
 }
@@ -55,10 +55,11 @@ body {
 .contact-container {
   margin-top: 35px;
   width: 50rem;
-  height: 50rem;
+
   background-color: rgb(245, 245, 245);
   padding-inline: 4rem;
   box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.1rem;
 }
 
 .image-asset {
@@ -111,3 +112,45 @@ body {
 /* .form-group {
 
 } */
+
+.textArea {
+  width: 100%;
+
+  border: 0;
+  background-color: inherit;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  resize: vertical;
+  overflow: auto;
+  margin-bottom: 6rem;
+}
+
+.textArea:focus {
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.cancel {
+  display: inline;
+  margin-right: 3rem;
+  font-size: 2.5rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.save {
+  display: inline;
+  font-size: 2.5rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.cancel:hover,
+.save:hover {
+  opacity: 0.9;
+}
