@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f2f;
+  height: 100%;
+}
+
+.root {
+  margin: 10rem auto;
+}
+
+.container {
+  margin-inline: auto;
+  width: 50rem;
+  height: 70rem;
+  background-color: #fae951;
+  padding: 5rem;
+}
+
+.header {
+  margin-bottom: 5rem;
+}
+
+.header-text {
+  display: inline;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.header-text:after {
+  content: "\00d7";
+  font-size: 3.2rem;
+  opacity: 0.5;
+  vertical-align: middle;
+  float: right;
+  cursor: pointer;
+}
+
+.header-text:hover:after {
+  opacity: 0.8;
+}
+
+.contact-container {
+  margin-top: 35px;
+  width: 50rem;
+  height: 50rem;
+  background-color: rgb(245, 245, 245);
+  padding-inline: 4rem;
+  box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.3);
+}
+
+.image-asset {
+  position: relative;
+  top: -30px;
+  width: 6rem;
+  border-radius: 50%;
+  margin-bottom: 0;
+  z-index: 5;
+}
+
+/* .form {
+    opacity: 0.5;
+} */
+
+.label {
+  display: block;
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.input-text {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  background-color: inherit;
+  margin-bottom: 1.5rem;
+}
+
+.input-text:focus {
+  outline: none;
+}
+.flex {
+  display: flex;
+}
+
+.label-inline {
+  /* display: inline-block; */
+}
+
+.flex-flow {
+  flex-grow: 1;
+}
+
+/* .form-group {
+
+} */
